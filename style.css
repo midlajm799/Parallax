@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #8ab364;
+    height: 200vh;
+    overflow-x: hidden;
+
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    color: #00442d;
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(0, 68, 45);
+    padding: 2px 15px;
+    border-radius: 20px;
+    margin-left: 5px;
+    font-weight: 550;
+
+
+}
+
+.navbar a:hover {
+    background-color:#8ab364; 
+    color: white;
+}
+
+.parellax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#text{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
+}
+
+.parellax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width:100% ;
+}
+
+.sec{
+    position: relative;
+    background-color: #8ab364;
+    
+    
+    
+}
+
+.webText{
+    font-size: 50px;
+    font-weight: 550;
+    
+}
